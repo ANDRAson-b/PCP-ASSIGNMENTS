@@ -9,8 +9,8 @@ Example: "abcde" becomes "ab-c-de"
 s = input('Enter an odd-length string (remember to put quotes around it): ')
 n = len(s)
 m = n//2
-first = s[0:m-1]
-middle = s[m+1]
+first = s[0:m]
+middle = s[m]
 second = s[m+1:]
 h = first+'-'+middle+'-'+second
 # final output
